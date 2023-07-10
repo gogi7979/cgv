@@ -5,7 +5,7 @@ $(function(){
         e.stopPropagation();
         return false;
     });
-    $('.popupclose').click(function(){
+    $('.popupclose, .popup').click(function(){
         $('.popup').fadeOut().off('scroll touchmove mousewheel')
     });
     
